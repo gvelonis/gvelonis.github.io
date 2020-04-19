@@ -2,7 +2,7 @@
 
 Welcome to my ePortfolio!
 
-Here you will find some reflections on my experiences as a stupid and in my professional life, narratives describing my processes, and examples of my work.  I will link to specific pieces as relevent, but for the complete work see my [CS-499 Repository](https://github.com/gvelonis/CS-499). The complete repository includes sample API calls, database deployment scripts, sample data, as well as the original artifacts for posterity.
+Here you will find some reflections on my experiences as a stupid and in my professional life, narratives describing my processes, and examples of my work.  I will link to specific pieces as relevent, but for the complete work see my [CS-499 Repository](https://github.com/gvelonis/CS-499). The complete repository includes sample API calls, database deployment scripts, sample data, as well as the original artifacts for posterity. The /scripts directory contains a database deployment script for use with the market API and CLI. The /data directory contains sample data for the stocks and companies collections for the market mongo DB as well as a sample stock for import through the CLI interface.  The /doc directory contains a short README with details and instructions about the project, sample API calls for the ReST interface, mongo commands used to create the db admin user and users for the API and CLI (created separately for auditing purposes), and .docx versions of the professional self-assessment and narratives on this page. The /lib directory contains the classes used by the higher level programs as well as the original artifacts; GV-7-1.py is the original CS-340 final before being improved to the market application suite and GV-CS-200-Final3.py is the original artifact for the roster before being improved to Roster.py
 
 ### Professional Self-Assessment
 
@@ -22,7 +22,7 @@ See my implementation of a doubly-linked list and several sorting algorithms for
 
 ### Software Design/Engineering and Databases Artifact
 
-My implementation of a [ReST API](https://github.com/gvelonis/CS-499/blob/master/MarketAPI.py) and [CLI program](https://github.com/gvelonis/CS-499/blob/master/MarketCLI.py) for interacting with a mongoDB database can be found in the [CS-499 repository](https://github.com/gvelonis/CS-499) as well.
+My implementation of a [ReST API](https://github.com/gvelonis/CS-499/blob/master/MarketAPI.py) and [CLI program](https://github.com/gvelonis/CS-499/blob/master/MarketCLI.py), [base mongoIfc class](https://github.com/gvelonis/CS-499/blob/master/lib/MongoIfc.py), and [extended marketDbIfc class](https://github.com/gvelonis/CS-499/blob/master/lib/MarketDbIfc.py) can be found in the [CS-499 repository](https://github.com/gvelonis/CS-499) as well.
 
 ### Software Design/Engineering Narrative
 
