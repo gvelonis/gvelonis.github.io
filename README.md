@@ -12,10 +12,6 @@ To showcase my skills in the data structures and algorithms category I took a si
 	
 For the software engineering and design category, databases, and security category I took the final from my most recent course, which was also my most advanced program at the time, and further improved upon it to produce the most complete, polished, and feature rich program I have written so far.  The original artifact was a mess that met all the objectives of that assignment but wasn’t thoughtfully designed at all. The first step in improving it was to redesign it to meet software design standards, specifically to split the one large program in to two classes and two separate programs with their own functions. The first class is a basic database connection class that can be applied to any mongodb connection, the second class extends the first and contains functions specific to the market database being worked with. One of the programs is a ReST API to interact with the database, the other is a command line interface to interact with the database.  After improving the design and re-engineering it, I worked on enhancing the security by adding in database access control.  The database is now secured, the user the market interface class uses only has read/write access and only to that database. It has only the privileges it needs to perform its function and nothing more. Furthermore, I improved the program by increasing the error handling and validating user input before passing it to the database to prevent injection attacks.
 
-### Code Review
-
-See me holding a code review of my design/database artifact before implementng the updates. It is hosted on youtube [here!](https://youtu.be/8JxVkJhRM8c)
-
 ### Data Structures/Algorithms Artifact
 
 See my implementation of a doubly-linked list and several sorting algorithms for an athletics team [roster](https://github.com/gvelonis/CS-499/blob/master/Roster.py) as a part of the greater [CS-499 repository](https://github.com/gvelonis/CS-499).
